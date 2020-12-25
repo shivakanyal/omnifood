@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1150px) {
+    html{
+        font-size: 55%;
+    }  
+    .row{
+          max-width: 1000px;
+          padding: 2%;
+     }
+}
+@media only screen and (max-width: 1011px) {
+    html{
+        font-size: 49%;
+    }  
+    .row{
+          max-width: 900px;
+          padding: 2%;
+     }
+
+}
+ @media only screen and (max-width: 1011px) {
+      
+        html{
+            font-size: 49%;
+        }  
+        .row{
+              max-width: 850px;
+              /* padding: 2%; */
+         }
+         section{
+             margin: 40px 0;
+         }
+
+         .features-elements{
+             flex-direction: column;
+         }
+         .features-elements>*{
+            margin-bottom: 20px;
+         }
+         .iphone{
+            padding: 20px;
+         }
+         .steps-box{
+           margin-bottom: 2rem;
+         }
+         .testimonials-box{
+             margin-top: 2rem;              
+         }
+         .testimonials-figure{
+             margin-left: 40%;
+             margin-top: 1.5rem;
+         }
+         .bq-testimonials{
+             width: 100%;
+         }
+         .para-media{
+             width: 80%;
+             margin: auto;
+             text-align: center;
+         }
+}
+@media only screen and (max-width: 1011px) {
+    .heading-3{
+        text-align: center;
+    }
+    .steps-box{
+        justify-content: center;
+      }
+    .steps-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .city-container{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+    }
+    .testimonials-container{
+        flex-direction: column;
+    }
+    .plans-container{
+        flex-direction: column;
+    }
+    .steps-container>*,.city-container>*,.testimonials-container>*{
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .plans-container>*{
+        width: 50%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .download-links{
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    .hehehe{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 825px) {
+    
+    .row{
+        max-width: 750px;
+    }
+}
+@media only screen and (max-width: 750px) {
+   
+    nav .links{
+           /* display: none; */
+        margin-left: 2rem;
+        flex-direction: column;
+        display: none;
+    }
+    .sticky .links{
+        margin-left: 4rem;
+        flex-direction: column;
+        display: none;
+    }
+    .sticky .links li a {
+        padding-bottom:1rem;
+        margin-bottom: 1rem;
+    }
+    nav,.sticky{
+        justify-content: flex-start;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    section{
+        margin: 30px 0;
+    }
+    .row{
+        max-width: 600px;
+    }
+    .form-content{
+        flex-direction: column;
+        /* margin0le: ; */
+    }
+    .form-content input ,textarea,select{
+        width: 100%;
+    }
+    .long-para{
+        width: 90%;
+    margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .row{
+        max-width: 550px;
+    }
+    html{
+        font-size: 50%;
+    }
+    .plans-container>*{
+        width: 60%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .testimonials{
+        padding: 30px;
+     }
+}
+@media only screen and (max-width: 550px) {
+    .row{
+        max-width: 500px;
+    }
+   
+  
+}
+@media only screen and (max-width: 510px) {
+    html{
+        font-size: 50%;
+    }
+    .row{
+        max-width: 450px;
+    }
+    .plans-container>*{
+        width: 80%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 455px) {
+    html{
+        font-size: 45%;
+    }
+    .row{
+        max-width: 350px;
+    }
+    .steps-container>*,.city-container>*,.testimonials-container>*,.plans-container>*{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .city-container{
+        width: 100%;
+        
+    }
+}
+@media only screen and (max-width: 355px) {
+    
+    .row{
+        max-width: 250px;
+    }
+}
+@media only screen and (max-width: 255px) {
+    html{
+        font-size: 40%;
+    }
+    .row{
+        max-width: 200px;
+    }
+}
