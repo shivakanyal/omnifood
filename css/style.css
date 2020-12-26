@@ -328,6 +328,10 @@ nav .links{
 .city{
    width: 100%;
 }
+.heading-3.city{
+    margin: 1rem 0;
+    text-align: center;
+}
 .city-box{
     width: 23%;
     display: flex;
@@ -473,6 +477,7 @@ figcaption{
     color: #999;
     font-size: 1.6rem;
 }
+
 .price-detail{
     margin-bottom: 10px;
     padding: 2rem;
@@ -617,4 +622,31 @@ figcaption{
     box-sizing: content-box;
     padding: 3px;
     top: 25px;
+}
+/* ---------------------- */
+/* -------ICONS-------- */
+/* ---------------------- */
+.icon-big{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.icon-small{
+    color: var(--primary-color);
+    display: inline-block;
+    margin-right: 2rem;
+}
+.fa-facebook{
+    color: #1877f2;
+}
+.fa-google-plus{
+    color: #ea4335;
+}
+.fa-instagram{
+    color: #c32aa3;
+}
+.fa-twitter{
+    color: #1da1f2;
 }
