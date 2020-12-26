@@ -429,12 +429,22 @@ figcaption{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     background-color: #fff;
 }
-
+.plans-button-box{
+    width: 50%;
+    margin: auto;
+}
 .plans-box a{
     display: inline-block;
     margin: 2rem 0;
     margin-left: 25%;
     /* padding: 0   ; */
+}
+.plans-button-box .btn{
+   width: auto;
+   display: block;
+   margin: 1rem auto;
+   text-align: center;
+   padding: 1rem .5rem;
 }
 
 .money{
@@ -600,7 +610,6 @@ figcaption{
     height: 3px;
     margin-bottom: 5px;
     border-radius: 20%;
-    
 }
 
 .active{
