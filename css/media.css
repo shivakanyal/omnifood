@@ -190,13 +190,12 @@
     .row{
         max-width: 350px;
     }
-    .steps-container>*,.city-container>*,.testimonials-container>*,.plans-container>*{
+    .city-container>*,.testimonials-container>*,.plans-container>*{
         margin-bottom: 20px;
         width: 100%;
     }
     .city-container{
-        width: 100%;
-        
+        width: 100%;       
     }
 }
 @media only screen and (max-width: 355px) {
